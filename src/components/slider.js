@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {select} from '../actions';
 import _ from 'lodash';
-import {createItemClass, onItemClick} from './misc';
+import {createItemClass, onItemClick, getFontClassName} from './misc';
 
 class Slider extends Component {
 	
@@ -12,8 +12,8 @@ class Slider extends Component {
 			<div className='slider-item-box'
 				 onClick={onItemClick.bind(this, item, this.props.selected.id)}>
 				
-				<div className="slider-item-box-label">{item.label}</div>
-				<div className="slider-item-box-name">{item.name}</div>
+				<div className={"slider-item-box-label" + getFontClassName(item)}>{item.label}</div>
+				<div className={"slider-item-box-name " + getFontClassName(item)}>{item.name}</div>
 			
 			</div>
 		);

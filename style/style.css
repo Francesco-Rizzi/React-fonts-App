@@ -1,3 +1,21 @@
+.font-roboto {
+  font-family: 'Roboto', sans-serif; }
+
+.font-lato {
+  font-family: 'Lato', sans-serif; }
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif; }
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif; }
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif; }
+
+.font-playfair-display {
+  font-family: 'Playfair Display', serif; }
+
 html, body {
   height: 100%;
   margin: 0;
@@ -140,8 +158,9 @@ html, body {
   position: fixed;
   font-size: 12px;
   letter-spacing: 3px;
-  top: 400px;
-  left: -45px;
+  top: 600px;
+  left: 65px;
+  transform-origin: left center;
   opacity: 0;
   transform: rotate(-90deg) translateX(-40px); }
 
@@ -155,8 +174,7 @@ html, body {
   padding: 30px; }
 
 .item-detail-title {
-  font-size: 120px;
-  font-family: Serif; }
+  font-size: 120px; }
 
 .item-detail-description {
   font-size: 20px;

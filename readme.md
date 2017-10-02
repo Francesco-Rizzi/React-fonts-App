@@ -1,9 +1,13 @@
-# React slider fonts App
+# React fonts App 🖊
 
-#### \[this is just an exercise\]
+###### \[this is just an exercise\]
 
 #### Description:
-An imaginary fonts app, which shows the most important fonts (fake data to date) in a slider (built from scratch, no libraries). Clicking on an item one you move (slide) between them. Clicking on the selected one you open the detail page with a smooth transition. Redux manages the state and takes care of keeping all the different UI components updated. All transitions are CSS based.
+A React with Redux exercise on creating a fonts app. [try it live](http://francescorizzi.info/experiments/react-fonts-app)
+
+It shows a list of important fonts in a slider (built from scratch with React and Redux, no libraries used). Clicking on an item you move (slide) between them. Clicking on the selected one you open the detail page in a smooth transition. All transitions are CSS based.
+
+Redux manages the state and takes care of keeping all the different UI components updated.
 
 #### Tech stuff 👾:
 - React ⚛️
@@ -11,4 +15,4 @@ An imaginary fonts app, which shows the most important fonts (fake data to date)
 - SASS
 - Babel
 - Webpack
-- NPM
+- NPM 📦

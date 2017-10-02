@@ -30,15 +30,21 @@ export function onItemClick( item, currentItemId ){
 	
 }
 
-function enterDetailView(  ){
+function enterDetailView(){
 	
 	$('body').addClass('mod-detail');
-
+	
 }
 
-export function exitDetailView(  ){
+export function exitDetailView(){
 	
 	$('body').removeClass('mod-detail');
+	
+}
+
+export function getFontClassName( item ){
+	
+	return " font-" + item.name.split(' ').join('-').toLowerCase();
 	
 }
 
